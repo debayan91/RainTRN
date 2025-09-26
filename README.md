@@ -1,7 +1,5 @@
 # RainTRN: A Spatio-Temporal Transformer Network with Spectral Normalization for Video De-raining
 
-**Authors:** Debayan Dutta, CV Team VIT
-
 This repository contains the official PyTorch implementation for the paper: **"RainTRN: A Spatio-Temporal Transformer Network with Spectral Normalization for Video De-raining"**.
 
 **RainTRN** is a novel deep learning architecture for robust video de-raining. It leverages a recurrent pipeline where the restored output from the preceding frame is used to maintain temporal consistency in the current frame. The model introduces two primary innovations:
